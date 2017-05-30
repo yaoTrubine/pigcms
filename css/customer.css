@@ -11,6 +11,8 @@ body {
     
 }
 
+
+
 a {
     text-decoration: none;
 }
@@ -172,5 +174,58 @@ img {
 
 
 .footer {
-    
+    background: #2E2E2E;
 }
+
+.footer .introduce {
+    padding: 40px 0;
+    border-bottom: 0.1px solid #6E6E6E;
+}
+
+.footer .item {
+    display: inline-block;
+    padding: 0 80px;
+    color: #fff;
+}
+
+.footer .item2 {
+    display: inline-block;
+    color: #F2F2F2;
+    padding: 30px 45px;
+}
+
+.footer .item2 a {
+    display: block;
+    color: #E6E6E6;
+    text-align: center;
+}
+
+.footer .contact {
+    padding: 30px 20px;
+    display: inline-block;
+}
+
+.footer .contact .qq {
+    display: inline-block;
+    margin-left: 70px;
+    padding: 10px 30px;
+    background: #2E9AFE;
+    border-radius: 20px;
+}
+
+.footer .phone p{
+    padding: 0;
+    margin: 0;
+}
+.footer .qq a{
+    color: #fff;
+}
+.footer .contact:before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    width: 1px;
+    height: 150px;
+    background: #fff;
+}
+
