@@ -1,0 +1,176 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-size: 14px;
+    color: #444;
+    background: #FAFAFA;
+    
+}
+
+a {
+    text-decoration: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clear-float:after,
+.clear-float:before {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9 {
+    display: block;
+    position: relative;
+    min-height: 1px;
+    float: left;
+}
+
+.col-1 {
+    width: 10%;
+}
+
+.col-2 {
+    width: 20%;
+}
+
+.col-3 {
+    width: 30%;
+}
+
+.col-4 {
+    width: 40%;
+}
+
+.col-5 {
+    width: 50%;
+}
+
+.col-6 {
+    width: 60%;
+}
+
+.col-7 {
+    width: 70%;
+}
+
+.col-8 {
+    width: 80%;
+}
+
+.col-9 {
+    width: 90%;
+}
+
+
+.top-nav {
+    background: #424242;
+}
+
+.top-nav .item {
+    display: inline-block;
+    color: #BDBDBD;
+    padding: 10px 20px;    
+}
+
+.top-nav .item:hover {
+    color: #fff;
+    background: #04B431;
+}
+
+.second-nav {
+    padding: 40px 0;
+    background: #FAFAFA;
+}
+
+.second-nav .item {
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.second-nav .item:nth-child(1) {
+    background: #04B431;
+    margin-right: 10px;
+}
+
+.second-nav .item:nth-child(2) {
+    background: #FF8000;
+}
+
+.third-nav {
+    background: #04B45F;
+}
+
+.third-nav .item {
+    font-size: 18px;
+    color: #fff;
+     display: inline-block;
+     float: left;
+    padding: 30px 18px;
+}
+
+.third-nav .item:nth-child(1) {
+    padding: 30px 44px;
+    background: #0B6138;
+}
+
+.last-nav {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 16px;
+    border-bottom: 0.5px solid #F2F2F2;
+    background: #fff;
+}
+
+.last-nav .item {
+    color: #6E6E6E;
+}
+
+.two-choice {
+    padding: 50px 0;
+}
+
+.two-choice .item {
+    color: #6E6E6E;
+    font-size: 24px;
+    display: inline-block;
+    padding: 20px 90px;
+    background: #fff;
+    margin-right: 35px;
+}
+
+
+
+.footer {
+    
+}
